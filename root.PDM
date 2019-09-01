@@ -1,0 +1,94 @@
+[Root]
+Most Recent Package=NRM v3.0
+
+[Package|NRM v3.0|NRM group]
+Icon1="NRM v3.0.exe"
+Title1=NRM v3.0
+StartIn1=$(AppPath)
+Key1=Icon4
+
+
+[Package|NRM v3.0|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=H:\project\setup
+
+[Package|NRM v3.0|Configure DAO ISAMs]
+Applicable=No
+
+[Package|NRM v3.0|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|NRM v3.0|Files Found]
+
+[Package|NRM v3.0|Files Released]
+
+[Package|NRM v3.0|Missing Dependency Information]
+
+[Package|NRM v3.0|Out-of-Date Dependency Information]
+
+[Package|NRM v3.0|Files Added]
+
+[Package|NRM v3.0|Files Removed]
+
+[Package|NRM v3.0|Files In Project]
+H:\project\din\NRM v3.0.exe=Yes
+C:\Windows\System32\msvbvm60.dll=Yes
+C:\Windows\System32\oleaut32.dll=Yes
+C:\Windows\System32\olepro32.dll=Yes
+C:\Windows\System32\asycfilt.dll=Yes
+C:\Windows\System32\stdole2.tlb=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\Windows\System32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|NRM v3.0|Configure Registry Files]
+Applicable=No
+
+[Package|NRM v3.0|Configure Remote Servers]
+Applicable=No
+
+[Package|NRM v3.0|Install Locations]
+H:\project\din\NRM v3.0.exe=$(AppPath)
+C:\Windows\System32\msvbvm60.dll=$(WinSysPathSysFile)
+C:\Windows\System32\oleaut32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\olepro32.dll=$(WinSysPathSysFile)
+C:\Windows\System32\asycfilt.dll=$(WinSysPathSysFile)
+C:\Windows\System32\stdole2.tlb=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\Windows\System32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|NRM v3.0|Configure Shared Files]
+Applicable=Yes
+H:\project\din\NRM v3.0.exe=Yes
+
+[Package|NRM v3.0|Distribution]
+Type=single
+Size=
+Title=NRM v3.0
+
+[Package|NRM v3.0|IconGroups]
+Group0=NRM team
+PrivateGroup0=False
+Parent0=$(Programs)
+
+[Package|NRM v3.0|NRM team]
+Icon1="NRM v3.0.exe"
+Title1=NRM v3.0
+StartIn1=$(AppPath)
+Key1=Icon3
+
+[Package|NRM v3.0|Package]
+PackageFolder=H:\project\setup
+ProjectFolder=H:\project
+ServerSideCab=
+File1=H:\project\setup\setup.exe
+File2=H:\project\setup\Setup.Lst
+File3=H:\project\setup\NRM v3.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
